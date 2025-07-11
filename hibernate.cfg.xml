@@ -6,7 +6,7 @@
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/<Database_Name>?useSSL=false</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/DATABASE_NAME?useSSL=false</property>
     <property name="hibernate.connection.username">USER_NAME</property>
     <property name="hibernate.connection.password">DB_PASSWORD</property>
     <property name="hibernate.show_sql">true</property>
